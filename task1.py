@@ -2,6 +2,7 @@
 text_sum = input("Сумма заказа: ")
 text_people = input("КОличество человек: ") 
 
+
 if not  text_sum.replace(".", "", 1).isdigit():
     print("Сумма должна быть числом")
 elif not text_people.isdigit() or int(text_people) == 0:
@@ -15,4 +16,3 @@ else:
 
     print("Итого с обслуживанием: total")
     print("С каждого: per_person") 
-
